@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T12:07:30.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" version="24.4.4" etag="2iuyi6r7mDst9XNfK0K_" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T12:24:40.339Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="xKNZcYd_ys_w9NefvQy2" version="24.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1223" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -44,6 +44,50 @@
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-0" value="更新Mock信息-s9命令方式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="530" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-1" value="Mock拦截信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="920" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-3" value="&lt;span style=&quot;white-space: pre;&quot; data-slate-fragment=&quot;JTVCJTdCJTIyY2hpbGRyZW4lMjIlM0ElNUIlN0IlMjJ0ZXh0JTIyJTNBJTIyJUU4JTkzJTlEJUU3JTg5JTk5JUU5JTgwJTgyJUU5JTg1JThEJUU1JTk5JUE4JTIyJTdEJTVEJTdEJTVE&quot;&gt;蓝牙适配器&lt;br/&gt;frameworks/base/core/java/android/bluetooth/BluetoothAdapter.java&lt;br/&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1070" width="440" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-4" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;1. import&lt;/span&gt; com.android.internal.space.api.BluetoothMock;&lt;/div&gt;&lt;div style=&quot;text-align: left; color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;2. &lt;span style=&quot;text-align: center; color: rgb(86, 156, 214);&quot;&gt;private&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;text-align: center; color: rgb(78, 201, 176);&quot;&gt;BluetoothMock&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;text-align: center; color: rgb(156, 220, 254);&quot;&gt;mMock&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;3. &lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;mMock = &lt;/span&gt;&lt;span style=&quot;text-align: center; color: rgb(156, 220, 254);&quot;&gt;BluetoothMock&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;text-align: center; color: rgb(220, 220, 170);&quot;&gt;getMock&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;();静态方法&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;4. &lt;/span&gt;&lt;span style=&quot;text-align: center; color: rgb(156, 220, 254);&quot;&gt;mMock&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;text-align: center; color: rgb(220, 220, 170);&quot;&gt;getAddress&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;text-align: center; color: rgb(86, 156, 214);&quot;&gt;null&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="LXkFEeEiA9PA6oayZuOk-3">
+          <mxGeometry x="-10" y="20" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-7" value="蓝牙MockAPI&lt;br&gt;frameworks/base/core/java/com/android/internal/space/api/BluetoothMock.java" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1060" width="690" height="120" as="geometry">
+            <mxRectangle x="490" y="1110" width="460" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-8" value="1.&amp;nbsp;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; color: rgb(86, 156, 214);&quot;&gt;extends&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;IMockCallback.Stub&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="LXkFEeEiA9PA6oayZuOk-7">
+          <mxGeometry y="30" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-9" value="2.&amp;nbsp;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; color: rgb(78, 201, 176);&quot;&gt;INineDSpace&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; color: rgb(156, 220, 254);&quot;&gt;mService、&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="LXkFEeEiA9PA6oayZuOk-7">
+          <mxGeometry y="60" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-10" value="3.&amp;nbsp;mService = INineDSpace.Stub.asInterface(ServiceManager.getService(Context.SPACE_SERVICE));静态方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="LXkFEeEiA9PA6oayZuOk-7">
+          <mxGeometry y="90" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-11" value="4.&amp;nbsp;mService = INineDSpace.Stub.asInterface(ServiceManager.getService(Context.SPACE_SERVICE));静态方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1180" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-12" value="5. return (String) mMap.getOrDefault(&quot;address&quot;, raw);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1210" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-13" value="5. return (String) mMap.getOrDefault(&quot;address&quot;, raw);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1240" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-14" value="5. return (String) mMap.getOrDefault(&quot;address&quot;, raw);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1280" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-15" value="5. return (String) mMap.getOrDefault(&quot;address&quot;, raw);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1260" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LXkFEeEiA9PA6oayZuOk-16" value="5. return (String) mMap.getOrDefault(&quot;address&quot;, raw);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1300" width="690" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
